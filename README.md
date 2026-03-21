@@ -4,7 +4,7 @@
 
 > AI-powered Rust development assistant with meta-cognition framework
 
-[![Version](https://img.shields.io/badge/version-2.0.9-green.svg)](https://github.com/ZhangHanDong/rust-skills/releases)
+[![Version](https://img.shields.io/badge/version-2.0.9-green.svg)](https://github.com/actionbook/rust-skills/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://github.com/anthropics/claude-code)
 
@@ -62,7 +62,7 @@ Skills now include **inline fallback logic** — when agent files are not availa
 #### Option A: NPX (Easiest)
 
 ```bash
-npx skills add ZhangHanDong/rust-skills
+npx skills add actionbook/rust-skills
 ```
 
 #### Option B: CoWork CLI
@@ -74,7 +74,7 @@ Install via [CoWork](https://crates.io/crates/cowork), a Rust-based skills manag
 cargo install cowork
 
 # Method 1: Direct install
-cowork install ZhangHanDong/rust-skills
+cowork install actionbook/rust-skills
 
 # Method 2: Config-based install (recommended for teams)
 cowork config init                    # Create .cowork/Skills.toml
@@ -89,7 +89,7 @@ cowork config install                 # Install all configured skills
 name = "my-rust-project"
 
 [skills.install]
-rust-skills = "ZhangHanDong/rust-skills"
+rust-skills = "actionbook/rust-skills"
 
 [security]
 trusted_authors = ["ZhangHanDong"]
@@ -100,7 +100,7 @@ trusted_authors = ["ZhangHanDong"]
 #### Option C: Manual Copy
 
 ```bash
-git clone https://github.com/ZhangHanDong/rust-skills.git
+git clone https://github.com/actionbook/rust-skills.git
 cp -r rust-skills/skills/* ~/.claude/skills/
 ```
 
@@ -116,7 +116,7 @@ For **Claude Code users** who want the complete experience with hooks, backgroun
 
 ```bash
 # Step 1: Add the marketplace
-/plugin marketplace add ZhangHanDong/rust-skills
+/plugin marketplace add actionbook/rust-skills
 
 # Step 2: Install the plugin
 /plugin install rust-skills@rust-skills
@@ -128,7 +128,7 @@ For **Claude Code users** who want the complete experience with hooks, backgroun
 
 ```bash
 # Clone the repository
-git clone https://github.com/ZhangHanDong/rust-skills.git
+git clone https://github.com/actionbook/rust-skills.git
 
 # Launch with plugin directory
 claude --plugin-dir /path/to/rust-skills
@@ -333,8 +333,8 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 ## Acknowledgments
 
-- [@pinghe](https://github.com/pinghe) - `context: fork` support suggestion ([#4](https://github.com/ZhangHanDong/rust-skills/issues/4))
-- [@DoiiarX](https://github.com/DoiiarX) - OpenCode installation fix ([#6](https://github.com/ZhangHanDong/rust-skills/issues/6))
+- [@pinghe](https://github.com/pinghe) - `context: fork` support suggestion ([#4](https://github.com/actionbook/rust-skills/issues/4))
+- [@DoiiarX](https://github.com/DoiiarX) - OpenCode installation fix ([#6](https://github.com/actionbook/rust-skills/issues/6))
 
 ## License
 
@@ -342,5 +342,5 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Links
 
-- **GitHub**: https://github.com/ZhangHanDong/rust-skills
-- **Issues**: https://github.com/ZhangHanDong/rust-skills/issues
+- **GitHub**: https://github.com/actionbook/rust-skills
+- **Issues**: https://github.com/actionbook/rust-skills/issues

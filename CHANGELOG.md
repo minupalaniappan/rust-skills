@@ -143,7 +143,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Plugin Marketplace Support
 - Added `.claude-plugin/marketplace.json` with official schema
 - Simplified `.claude-plugin/plugin.json` (skills auto-discovered)
-- Support for `/plugin marketplace add ZhangHanDong/rust-skills`
+- Support for `/plugin marketplace add actionbook/rust-skills`
 
 #### Domain Skills (Layer 3)
 - **domain-fintech**: Financial technology patterns
@@ -174,7 +174,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated quick test commands
 
 ### Fixed
-- Fixed incorrect repository links (`anthropics/rust-skills` → `ZhangHanDong/rust-skills`)
+- Fixed incorrect repository links (`anthropics/rust-skills` → `actionbook/rust-skills`)
 - Fixed actionbook link (`anthropics/actionbook` → `actionbook/actionbook`)
 
 ### Documentation

@@ -11,7 +11,7 @@ Add rust-skills as instructions in your OpenCode config:
 **Step 1:** Clone the repository
 
 ```bash
-git clone https://github.com/ZhangHanDong/rust-skills.git ~/rust-skills
+git clone https://github.com/actionbook/rust-skills.git ~/rust-skills
 ```
 
 **Step 2:** Add to your OpenCode configuration
@@ -31,7 +31,7 @@ Edit `~/.config/opencode/opencode.json` (or `.opencode/opencode.json` in your pr
 
 ```bash
 # Clone rust-skills
-git clone https://github.com/ZhangHanDong/rust-skills.git
+git clone https://github.com/actionbook/rust-skills.git
 
 # Create OpenCode instructions directory
 mkdir -p ~/.config/opencode/instructions
@@ -133,4 +133,4 @@ OpenCode integration provides instruction-based guidance only. Features requirin
 
 - [OpenCode Documentation](https://opencode.ai/docs/)
 - [OpenCode Config Reference](https://opencode.ai/docs/config/)
-- [Rust Skills GitHub](https://github.com/ZhangHanDong/rust-skills)
+- [Rust Skills GitHub](https://github.com/actionbook/rust-skills)

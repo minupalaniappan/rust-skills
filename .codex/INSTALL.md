@@ -15,7 +15,7 @@ cp AGENTS.md /path/to/your/project/AGENTS.md
 
 ```bash
 cd your-project
-git submodule add https://github.com/ZhangHanDong/rust-skills.git .rust-skills
+git submodule add https://github.com/actionbook/rust-skills.git .rust-skills
 ```
 
 Then reference in your AGENTS.md:

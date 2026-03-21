@@ -4,7 +4,7 @@
 
 > 基于元认知框架的 AI Rust 开发助手
 
-[![Version](https://img.shields.io/badge/version-2.0.9-green.svg)](https://github.com/ZhangHanDong/rust-skills/releases)
+[![Version](https://img.shields.io/badge/version-2.0.9-green.svg)](https://github.com/actionbook/rust-skills/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://github.com/anthropics/claude-code)
 
@@ -62,7 +62,7 @@ Skills 现已内置**内联回退逻辑** —— 当 agent 文件不可用时，
 #### 方式 A：NPX（最简单）
 
 ```bash
-npx skills add ZhangHanDong/rust-skills
+npx skills add actionbook/rust-skills
 ```
 
 #### 方式 B：CoWork CLI
@@ -74,7 +74,7 @@ npx skills add ZhangHanDong/rust-skills
 cargo install cowork
 
 # 方式 1：直接安装
-cowork install ZhangHanDong/rust-skills
+cowork install actionbook/rust-skills
 
 # 方式 2：配置文件安装（推荐团队使用）
 cowork config init                    # 创建 .cowork/Skills.toml
@@ -89,7 +89,7 @@ cowork config install                 # 安装所有配置的 skills
 name = "my-rust-project"
 
 [skills.install]
-rust-skills = "ZhangHanDong/rust-skills"
+rust-skills = "actionbook/rust-skills"
 
 [security]
 trusted_authors = ["ZhangHanDong"]
@@ -100,7 +100,7 @@ trusted_authors = ["ZhangHanDong"]
 #### 方式 C：手动复制
 
 ```bash
-git clone https://github.com/ZhangHanDong/rust-skills.git
+git clone https://github.com/actionbook/rust-skills.git
 cp -r rust-skills/skills/* ~/.claude/skills/
 ```
 
@@ -116,7 +116,7 @@ cp -r rust-skills/skills/* ~/.claude/skills/
 
 ```bash
 # 步骤 1: 添加 marketplace
-/plugin marketplace add ZhangHanDong/rust-skills
+/plugin marketplace add actionbook/rust-skills
 
 # 步骤 2: 安装插件
 /plugin install rust-skills@rust-skills
@@ -128,7 +128,7 @@ cp -r rust-skills/skills/* ~/.claude/skills/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/ZhangHanDong/rust-skills.git
+git clone https://github.com/actionbook/rust-skills.git
 
 # 使用插件目录启动
 claude --plugin-dir /path/to/rust-skills
@@ -333,8 +333,8 @@ cd my-rust-project
 
 ## 致谢
 
-- [@pinghe](https://github.com/pinghe) - `context: fork` 支持建议 ([#4](https://github.com/ZhangHanDong/rust-skills/issues/4))
-- [@DoiiarX](https://github.com/DoiiarX) - OpenCode 安装修复 ([#6](https://github.com/ZhangHanDong/rust-skills/issues/6))
+- [@pinghe](https://github.com/pinghe) - `context: fork` 支持建议 ([#4](https://github.com/actionbook/rust-skills/issues/4))
+- [@DoiiarX](https://github.com/DoiiarX) - OpenCode 安装修复 ([#6](https://github.com/actionbook/rust-skills/issues/6))
 
 ## 许可证
 
@@ -342,5 +342,5 @@ MIT 许可证 - 详见 [LICENSE](LICENSE)
 
 ## 链接
 
-- **GitHub**: https://github.com/ZhangHanDong/rust-skills
-- **Issues**: https://github.com/ZhangHanDong/rust-skills/issues
+- **GitHub**: https://github.com/actionbook/rust-skills
+- **Issues**: https://github.com/actionbook/rust-skills/issues

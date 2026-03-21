@@ -6,8 +6,8 @@
     "name": "ZhangHanDong",
     "url": "https://github.com/ZhangHanDong"
   },
-  "repository": "https://github.com/ZhangHanDong/rust-skills",
-  "homepage": "https://github.com/ZhangHanDong/rust-skills",
+  "repository": "https://github.com/actionbook/rust-skills",
+  "homepage": "https://github.com/actionbook/rust-skills",
   "license": "MIT",
   "keywords": [
     "rust",

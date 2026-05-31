@@ -70,23 +70,6 @@ Complete index of all rust-skills with descriptions.
 
 ---
 
-## ClickHouse / chDB Skills
-
-Ported from [clickhouse-agent-skills](https://github.com/minupalaniappan/clickhouse-agent-skills). Database design, query optimization, and in-process analytics.
-
-| Name | Description | Key Triggers |
-|------|-------------|--------------|
-| clickhouse-best-practices | 31 rules for ClickHouse schemas, queries, configs | ClickHouse schema, query, ORDER BY, PRIMARY KEY, data type, JOIN |
-| clickhouse-architecture-advisor | Workload-aware architecture decision frameworks | ClickHouse architecture, ingestion strategy, partitioning, upsert, pre-aggregation |
-| clickhousectl-local-dev | Zero-to-working local ClickHouse setup | install ClickHouse, local server, create tables, local dev |
-| clickhousectl-cloud-deploy | Deploy to ClickHouse Cloud / production | deploy ClickHouse, ClickHouse Cloud, managed service, migrate to cloud |
-| chdb-sql | Embedded ClickHouse SQL in Python (no server) | SQL on parquet/csv/json, chdb.query(), table functions, cross-source joins |
-| chdb-datastore | Pandas-compatible API backed by ClickHouse | pandas, DataFrame, speed up pandas, group/aggregate/join tabular data |
-| clickhouse-js-node-coding | Build apps with @clickhouse/client (Node.js) | @clickhouse/client, insert rows, query params, sessions, Node.js client |
-| clickhouse-js-node-troubleshooting | Debug @clickhouse/client issues | socket hang-up, ECONNRESET, Keep-Alive, TLS, read-only user, Node.js client errors |
-
----
-
 ## Skill Count Summary
 
 | Category | Count |
@@ -96,8 +79,7 @@ Ported from [clickhouse-agent-skills](https://github.com/minupalaniappan/clickho
 | Core | 4 |
 | Domain (L3) | 7 |
 | Utility | 6 |
-| ClickHouse / chDB | 8 |
-| **Total** | **39** |
+| **Total** | **31** |
 
 ---
 

@@ -12,8 +12,7 @@
     "core_skills": 4,
     "utility_skills": 6,
     "experimental_skills": 1,
-    "clickhouse_skills": 8,
-    "total_skills": 40,
+    "total_skills": 32,
     "unsafe_rules": 47,
     "coding_guidelines": {
       "p_rules": 80,
@@ -68,16 +67,6 @@
     ],
     "experimental": [
       "meta-cognition-parallel"
-    ],
-    "clickhouse": [
-      "clickhouse-best-practices",
-      "clickhouse-architecture-advisor",
-      "clickhousectl-local-dev",
-      "clickhousectl-cloud-deploy",
-      "chdb-sql",
-      "chdb-datastore",
-      "clickhouse-js-node-coding",
-      "clickhouse-js-node-troubleshooting"
     ]
   },
 

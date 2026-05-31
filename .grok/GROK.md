@@ -124,6 +124,23 @@ disambiguates intent and dispatches to the skills below. Triggers are English + 
 | `domain-iot` | IoT, sensor, MQTT, device, edge computing, telemetry, actuator, smart home, gateway, 物联网, 传感器 |
 | `domain-ml` | machine learning, ML, AI, tensor, model, inference, neural network, deep learning, training, ndarray, 机器学习, 模型 |
 
+### ClickHouse / chDB skills
+
+Ported from [clickhouse-agent-skills](https://github.com/minupalaniappan/clickhouse-agent-skills). These activate for ClickHouse database and chDB (in-process ClickHouse for Python) work, independent of the Rust routing above.
+
+| Skill | Triggers |
+|-------|----------|
+| `clickhouse-best-practices` | reviewing ClickHouse schemas/queries/configs, `CREATE TABLE`, `ORDER BY` / `PRIMARY KEY` choice, data type selection, JOIN tuning, insert batching, partitioning, materialized views, mutations |
+| `clickhouse-architecture-advisor` | designing a ClickHouse architecture, choosing ingestion or modeling patterns, partitioning strategy, late-arriving data / upserts, real-time pre-aggregation, workload-specific system design |
+| `clickhousectl-local-dev` | install ClickHouse, set up local dev environment, create a local server, start developing, zero-to-working local setup |
+| `clickhousectl-cloud-deploy` | deploy ClickHouse to the cloud, go to production, ClickHouse Cloud, managed/hosted service, migrate local → cloud |
+| `chdb-sql` | run SQL on parquet/csv/json files, URLs, S3, or remote DBs without a server; `chdb.query()`, Session, table functions (`s3()`, `mysql()`, `postgresql()`, `iceberg()`, `deltaLake()`), parametrized queries, UDFs, cross-source joins |
+| `chdb-datastore` | tabular data (pandas DataFrame/parquet/csv/Arrow/json) filter/group/aggregate/join, speed up slow pandas, read S3/MySQL/PostgreSQL/MongoDB/Iceberg/Delta Lake as DataFrames |
+| `clickhouse-js-node-coding` | building app code with the ClickHouse Node.js client `@clickhouse/client` — configuring, inserting rows, selecting/parsing results, query parameters, sessions, data types (NOT browser/Web client) |
+| `clickhouse-js-node-troubleshooting` | errors/unexpected behavior with `@clickhouse/client` — socket hang-up / `ECONNRESET`, Keep-Alive, stream handling, data type mismatch, read-only user, proxy/TLS, query timeouts |
+
+> **Note:** These are domain skills outside the Rust meta-cognition layers (§2). When a message is about ClickHouse or chDB, open the matching skill above directly; the `rust-router` flow does not apply.
+
 ### Utility / command skills (invoke on explicit request or slash command)
 
 | Skill | Use when |
